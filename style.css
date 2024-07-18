@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  /* font-family: "inter", sans-serif; */
+}
+
+strong {
+  color: rgb(169, 71, 6);
+  font-family: cursive;
+}
+
+header {
+  /* background-color: white; */
+  /* margin: 20px; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+
+nav a {
+  margin-left: 40px;
+  /* text-decoration: none; */
+  /* color: #cdcdcd; */
+}
+nav a:hover {
+  color: rgb(3, 136, 197);
+  text-decoration: underline;
+}
+/* Home */
+
+#mani_image {
+  background: url("https://img.goodfon.com/original/1920x1080/f/2b/clock-gears-hands-numbers-black-background-simple-background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* margin: 40px; */
+  padding: 140px;
+  text-align: center;
+  gap: 400px;
+  /* margin: 0 20rem; */
+}
+
+.country {
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(168, 124, 66));
+}
+
+.country h5 {
+  margin-top: 20px;
+  color: rgb(127, 127, 127);
+  font-family: cursive;
+}
+
+#india {
+  font-size: 12px;
+  padding: 20px;
+  line-height: 1.5;
+}
+#Paris {
+  font-size: 12px;
+  padding: 20px;
+  line-height: 1.5;
+}
+#newYork {
+  font-size: 12px;
+  padding: 20px;
+  line-height: 1.5;
+}
+#londonTime {
+  font-size: 12px;
+  padding: 20px;
+  line-height: 1.5;
+}
+.container_1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+
+.container_2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+
+/* ///////////////// */
+/* Alarm  section */
+/* /////////////////// */
+
+#alarm {
+  /* background-color: rgb(58, 69, 73);
+  color: white; */
+  padding: 80px;
+  /* text-align: center; */
+  color: #bebebe;
+}
+#alarm h1 {
+  color: rgb(3, 136, 197);
+}
+
+.alarm_heading {
+  text-align: center;
+}
+.alarm_heading h3 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: rgb(169, 71, 6);
+  /* font-family: cursive; */
+}
+
+#day {
+  margin-bottom: 20px;
+}
+
+#indiaTime {
+  font-size: 4.5rem;
+  /* color: rgb(3, 136, 197); */
+  color: brown;
+}
+
+.set_alarm {
+  padding: 40px 150px;
+}
+
+.set_alarm_name {
+  font-size: 20px;
+  color: #bebebe;
+}
+.hours p {
+  font-size: 16px;
+  color: #bebebe;
+}
+
+.minutes p {
+  font-size: 16px;
+  color: #bebebe;
+}
+
+.hou_min {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.hou_min select {
+  width: 100%;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #333;
+
+  color: white;
+}
+
+.hou_min select option {
+  background-color: #333;
+  color: white;
+}
+
+.common_alarm {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  /* text-align: center; */
+  font-size: 16px;
+}
+.common_alarm p {
+  color: rgb(3, 136, 197);
+}
+.common_alarm a {
+  text-decoration: none;
+  color: rgb(3, 136, 197);
+
+  margin-left: 5px;
+}
+
+.common_alarm a:hover {
+  text-decoration: underline;
+  color: rgb(9, 82, 116);
+}
+
+.alarm_sound {
+  margin-top: 40px;
+}
+
+.alarm_sound h2 {
+  font-size: 18px;
+  /* text-align: center; */
+}
+
+.alarm_name {
+  width: 100%;
+  height: 45px;
+  background-color: #333;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.alarmName {
+  margin-top: 40px;
+}
+
+.alarmName h2 {
+  font-size: 18px;
+}
+
+.alarmName input {
+  width: 100%;
+  height: 45px;
+  background-color: #333;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  border: 1px solid #333;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 100%;
+  height: 45px;
+  font-weight: 700;
+  background-color: rgb(3, 136, 197);
+  border-radius: 10px;
+  border: 2px solid rgb(48, 82, 88);
+}
+/* ///////////////////// */
+/* Clock Section*/
+/* ///////////////////// */
+
+#Clock_section {
+  padding: 80px;
+}
+
+#Clock_section h1 {
+  color: rgb(19, 158, 222);
+  margin-bottom: 20px;
+}
+
+.clock_subsection {
+  padding: 40px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.clock_img img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px;
+}
+.clock_det {
+  margin-top: 110px;
+}
+.clock_hyd {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(178, 114, 3);
+  font-weight: 700;
+}
+
+.clock_to {
+  font-size: 14px;
+  margin-top: -35px;
+  font-family: cursive;
+  color: rgb(19, 158, 222);
+}
+
+.pm_1111 {
+  margin-top: 30px;
+  font-size: 80px;
+  color: rgb(188, 79, 25);
+  /* color: linear-gradient(rgba(0, 0, 0, 0.6), rgb(168, 124, 66)); */
+}
+
+/* ///////////////////// */
+/* stopwatch */
+/* ///////////////////// */
+
+#stopwatch {
+  padding: 80px;
+}
+
+#stopwatch h1 {
+  color: rgb(19, 158, 222);
+  margin-bottom: 30px;
+}
+
+.stop_btn {
+  padding: 10px;
+  width: 100px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  background-color: #ff004f;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ff004f;
+}
+
+.Stopwatch_part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.running_clock {
+  padding: 30px;
+}
+
+/* ///////////////////// */
+/* footer */
+/* ///////////////////// */
+
+#footer {
+  padding: 80px 80px 40px 80px;
+  /* background-color: rgb(65, 82, 65); */
+  background-color: #1f1f1f;
+  color: #bebebe;
+}
+
+.footer_part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.Brightstart {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(199, 127, 44);
+}
+span {
+  color: rgb(19, 158, 222);
+}
+
+.time_line {
+  font-size: 14px;
+  font-family: cursive;
+  margin-top: -7px;
+}
+
+.footer_para {
+  /* line-height: 1.5; */
+  font-size: 12px;
+  margin-top: 25px;
+  font-family: cursive;
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 30px;
+}
+
+.whats {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.what_name {
+  letter-spacing: 3px;
+  font-size: 11px;
+}
+
+.whats p {
+  margin-bottom: 5px;
+}
+
+.icon {
+  color: rgb(19, 158, 222);
+}
+
+.social_icons {
+  margin-top: 30px;
+}
+
+.icon_icon {
+  margin-right: 10px;
+  color: rgb(19, 158, 222);
+}
+
+.test-2 {
+  color: #bebebe;
+}
+
+.test_para {
+  color: rgb(19, 158, 222);
+}
+
+.type_of_clock {
+  padding: 30px 0 0 0;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.type_of_clock a {
+  text-decoration: none;
+  color: #bebebe;
+}
+
+.type_of_clock a:hover {
+  text-decoration: underline;
+  color: rgb(19, 158, 222);
+}
+
+.about {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  /* display: inline-block; */
+  /* justify-content: space-; */
+  justify-content: space-evenly;
+}
+
+.about a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #bebebe;
+}
+
+.about a:hover {
+  text-decoration: underline;
+  color: rgb(19, 158, 222);
+}
+
+.footer_footer {
+  font-size: 14px;
+  margin-top: 30px;
+  /* margin-left: 30px; */
+}
