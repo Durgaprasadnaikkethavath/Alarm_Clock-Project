@@ -322,12 +322,35 @@ nav a:hover {
   color: #fff;
   border-radius: 5px;
   border: 1px solid #ff004f;
+  /* margin-right: 20px; */
+  margin: 40px;
+}
+
+.stopwatch_btn {
+  padding: 40px;
+}
+
+.stop_btn:hover {
+  background-color: #5e182e;
+  border: 1px solid #5e182e;
 }
 
 .Stopwatch_part {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.running_clock p {
+  margin-top: -50px;
+  text-align: center;
+}
+
+.stopwatch_btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .running_clock {
@@ -460,4 +483,85 @@ span {
   font-size: 14px;
   margin-top: 30px;
   /* margin-left: 30px; */
+}
+
+/* ///////////////////// */
+/* Timer */
+/* ///////////////////// */
+
+#timer_section {
+  padding: 80px;
+}
+
+#timer_section h1 {
+  color: rgb(19, 158, 222);
+}
+
+.time_hours {
+  display: flex;
+  color: #bebebe;
+}
+
+.time_hours select {
+  margin-right: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+}
+.time_hours p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select_hour_min_sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 40px;
+}
+
+.timer_btn button {
+  padding: 10px;
+  width: 100px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  background-color: #ff004f;
+  color: #e0e0e0;
+  border-radius: 5px;
+  border: 1px solid #ff004f;
+  margin: 20px 100px;
+}
+
+.timer_btn button:hover {
+  background-color: #5e182e;
+  color: white;
+  border: 1px solid #5e182e;
+}
+
+.common_timers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 20px 80px;
+}
+
+.common_timers a {
+  text-decoration: none;
+}
+
+.common_timers_1 {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: #bebebe;
+}
+.common_timers_1 p {
+  margin-top: 10px;
+  font-size: 16px;
 }
